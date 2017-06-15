@@ -1,0 +1,5 @@
+{$IFDEF WIN64}
+  {$LIBSUFFIX '_64'}
+{$ELSE}
+  {$LIBSUFFIX '_32'}
+{$ENDIF}
